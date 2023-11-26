@@ -36,20 +36,22 @@ html{
     cursor: pointer;
     display: flex;
     align-items: center;
+    margin-right: 60rem;
 }
 
 .logo img {
 
     width: 80px;
-    height: auto;
+    height: 10rem;
     margin-right: 10px;
+    margin-left: -380px;
     
 }
 
 .logo h3{
 
-    color: white;
-    font-size: 1.6rem;
+    color: aliceblue;
+    font-size: 2rem;
     margin: 0;
     white-space: nowrap;
 
@@ -66,7 +68,7 @@ html{
 .content .list-menu li a {
 
     padding: 3rem 1rem 2rem 1rem;
-    color: white;
+    color: aliceblue;
     font-size: 1.8rem;
     text-transform: uppercase;
     font-weight: 500;
@@ -105,14 +107,14 @@ html{
 }
 
 .first-section h1 {
-    color: white;
+    color: aliceblue;
     font-size: 3rem;
     text-transform: uppercase;
     margin-bottom: 1rem;
 }
 
 .first-section h2 {
-    color: ghostwhite;
+    color: aliceblue;
     font-size: 2rem;
     font-weight: 400;
     text-transform: uppercase;
@@ -144,7 +146,7 @@ html{
     background-color: rgb(2, 35, 97);
     width: 100%;
     padding-bottom: 5rem;
-    color: white;
+    color: aliceblue;
     display: flex;
     align-items: center;
 
@@ -181,4 +183,104 @@ html{
     font-size: 2.8rem;
     width: 1200px;
 
+}
+
+/*Meu Trablho*/
+
+.meu-trabalho{
+    background-color: aliceblue;
+    width: 100%;
+    padding-bottom: 5rem;
+    color: rgb(2, 35, 97);
+    display: flex;
+    align-items: center;
+
+}
+
+.meu-trabalho img {
+    width: 500px;
+    height: 600px;
+    margin-top: 10rem;
+    margin-left: 10rem;
+}
+
+.mainii {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contentsobreaplicativo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contentsobreaplicativo h2 {
+    font-size: 6rem;
+    margin-bottom: 1rem;
+
+}
+
+.contentsobreaplicativo p {
+    text-align: center;
+    font-size: 2.8rem;
+    width: 1200px;
+
+}
+
+/*Contatos*/
+
+.contatos{
+    width: 100%;
+    background-color: #1f1e1f;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.8rem;
+    color: aliceblue;
+    padding-bottom: 4rem;
+}
+
+.contatos h3{
+    font-size: 6rem;
+    margin-bottom: 3rem;
+}
+
+.contatos-secao{
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 2.5rem;
+}
+
+.contatos-secao a{
+    margin-right: 3rem;
+    color: none;
+    cursor: pointer;
+    transition: all 200ms ease-in;
+    text-decoration: none;
+    color: inherit;
+
+}
+
+.contatos-secao div{
+    cursor: pointer;
+    transition: all 200ms ease-in;
+}
+
+.contatos-secao div:hover{
+    color: aquamarine;
+
+}
+
+footer{
+    height: 25px;
+    background-color: black;
+    color: white;
+    font-size: 1.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
