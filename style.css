@@ -16,6 +16,16 @@ html{
     overflow-x: hidden;
 }
 
+@media screen and (max-width: 768px) {
+    .logo {
+        margin-right: 1rem; /* Ajuste da margem para telas menores */
+    }
+    .logo img {
+        width: 50px; /* Reduzindo o tamanho da imagem */
+        height: auto; /* Mantendo a proporção */
+        margin-left: -100px; /* Ajuste da margem para telas menores */
+    }
+}
 /*Menu*/
 
 .content {
